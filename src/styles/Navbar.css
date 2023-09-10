@@ -19,6 +19,10 @@
 	text-decoration: none;
 	margin: 20px;
 	font-size: 20px;
+	font-weight: 200;
+}
+.navbar a:hover {
+	font-weight: 400;
 }
 
 .toggleButton {

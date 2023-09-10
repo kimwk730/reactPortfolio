@@ -14,6 +14,15 @@ function Home() {
 			<main>
 				<div>Projects</div>
 				<div>Skills</div>
+				<ul>
+					<li>React.js</li>
+					<li>Javascript</li>
+					<li>Bootstrap</li>
+					<li>CSS</li>
+					<li>HTML</li>
+					<li>Figma</li>
+					<li>SEO</li>
+				</ul>
 			</main>
 		</div>
 	);

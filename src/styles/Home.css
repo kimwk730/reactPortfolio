@@ -1,0 +1,5 @@
+.hero {
+	font-family: var(--accentFont);
+	background: var(--beige);
+	margin: 0;
+}

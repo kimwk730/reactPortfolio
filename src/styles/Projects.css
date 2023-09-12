@@ -34,7 +34,7 @@ h1 {
 	text-align: right;
 	border-radius: 5px 200px 200px 5px;
 }
-.projectItem img {
+.projectItem .projPic {
 	max-height: 250px;
 	border: 3px double white;
 	border-radius: 7x;
@@ -44,7 +44,6 @@ h1 {
 	flex-grow: 1;
 	color: white;
 	display: flex;
-
 	flex-direction: column;
 	justify-content: center;
 }
@@ -57,4 +56,33 @@ h1 {
 .projectItem .info p {
 	font-size: 20px;
 	font-weight: 100;
+}
+.projectItem a {
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	transition-duration: 0.2s;
+}
+.projectItem button {
+	background-color: var(--tan);
+	padding: 4px 16px;
+	border: 1px solid white;
+	border-radius: 10px;
+	transition-duration: 0.2s;
+}
+.projectItem .githubLogo {
+	width: 30px;
+	display: inline-block;
+	transition-duration: 0.2s;
+}
+.projectItem button:hover {
+	color: var(--beige);
+	background-color: #4f4c43;
+	border: none;
+}
+.projectItem a:hover {
+	color: var(--beige);
+}
+.projectItem .githubLogo:hover {
+	width: 40px;
 }

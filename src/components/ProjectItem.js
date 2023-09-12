@@ -3,7 +3,7 @@ import React from "react";
 function ProjectItem({ image, name, skill, id }) {
 	return (
 		<div className="projectItem" id={id}>
-			<div>
+			<div className="projectPic">
 				<img src={image} alt="picpic" />
 			</div>
 			<div className="info">
